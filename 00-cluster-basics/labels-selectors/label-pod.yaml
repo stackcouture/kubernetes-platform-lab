@@ -1,0 +1,14 @@
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: nginx-pod 
+  labels: 
+    app: voting
+    component: frontend
+    environment: development
+spec:
+  containers:
+  - name: nginx-container 
+    image: nginx:1.27 
+    ports: 
+    - containerPort: 80
