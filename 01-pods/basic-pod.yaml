@@ -1,0 +1,14 @@
+apiVersion: v1 
+kind: Pod 
+metadata: 
+  name: basic-pod 
+  labels: 
+    app: basic-pod
+    environment: web 
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx:1.27
+    ports:
+    - containerPort: 80 
+      protocol: TCP 
