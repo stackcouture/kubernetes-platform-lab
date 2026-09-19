@@ -976,25 +976,23 @@ They should generally be separate workloads.
 ---
 ## 35. Production Pod Checklist
 
-Before deploying a workload, consider:
+Use this checklist when creating or reviewing Kubernetes workloads.
 
-```text
-□ Resource requests
-□ Resource limits
-□ Liveness probe
-□ Readiness probe
-□ Startup probe where required
-□ SecurityContext
-□ Non-root execution
-□ Capability restrictions
-□ Image version
-□ Image security scanning
-□ Appropriate labels
-□ Appropriate annotations
-□ Secrets management
-□ ConfigMap configuration
-□ NetworkPolicy
-```
+* [ ] Resource requests
+* [ ] Resource limits
+* [ ] Liveness probe
+* [ ] Readiness probe
+* [ ] Startup probe where required
+* [ ] SecurityContext
+* [ ] Non-root execution
+* [ ] Capability restrictions
+* [ ] Image version
+* [ ] Image security scanning
+* [ ] Appropriate labels
+* [ ] Appropriate annotations
+* [ ] Secrets management
+* [ ] ConfigMap configuration
+* [ ] NetworkPolicy
 
 ---
 ## 36. Hands-On Lab
